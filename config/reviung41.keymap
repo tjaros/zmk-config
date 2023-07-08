@@ -260,8 +260,8 @@ behaviors {
                         bindings = <
    TD_TAB    TD_SCLN  TD_COMM TD_DOT &kp P &kp Y   &kp F &kp G  &kp C &kp R &kp L &kp BSPC
    &kp LCTRL &kp A    &kp O   &kp E  &kp U &kp I   &kp D &kp H  &kp T &kp N &kp S &kp DEL
-   TD_SCLOCK TD_QUOTE TD_ARR  &kp J  &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z &mt TD_TAW
-                        TD_ALT  &mo 1 TD_SPC &mo 2  &kp RALT
+   TD_SCLOCK TD_QUOTE TD_ARR  &kp J  &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z TD_TAW
+                        &kp LALT  &mo 1 TD_SPC &mo 2  &kp RALT
                         >;
                 };
 
@@ -275,7 +275,7 @@ behaviors {
    &trans  &one_lbkt    &two_lbrc &three_rbrc &four_lpar &five_equal &six_s    &seven_par  &eight_pl &nine_rbkt &zero_exlm   &trans
    &kp F11 &kp F1       &kp F2     &kp F3      &kp F4    &kp F5      &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT  &trans       &trans
    &trans  &kp F6       &kp F7     &kp F8      &kp F9    &kp F10     &kp HOME  &kp PG_DN   &kp PG_UP &kp END    &trans       &trans
-                                 &trans      &trans      &kp RET     &mo 3       &trans
+                                 &trans      &trans      &trans     &mo 3       &trans
                         >;
                 };
 
