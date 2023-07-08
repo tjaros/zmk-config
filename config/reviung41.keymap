@@ -41,7 +41,7 @@
 
 
 / {
-            behaviors{  
+behaviors {  
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0"; 
@@ -245,7 +245,7 @@
     };
 
 
-        / LAYERS
+        // LAYERS
         conditional_layers {
                 compatible = "zmk,conditional-layers";
                 tri_layer {
