@@ -273,8 +273,8 @@ behaviors {
 //                           |     |     |      |     |     |
                         bindings = <
    &trans  &one_lbkt    &two_lbrc &three_rbrc &four_lpar &five_equal &six_s    &seven_par  &eight_pl &nine_rbkt &zero_exlm   &trans
-   &kp F11 &kp F1       &kp F2     &kp F3      &kp F4    &kp F5      &kp LEFT  &kp DOWN    &kp UP    &RIGHT     &trans       &trans
-   &trans  &kp F6       &kp F7     &kp F8      &kp F9    &kp F10     &kp HOME  &kp PG_DN   &kp PG_UP &END       &trans       &trans
+   &kp F11 &kp F1       &kp F2     &kp F3      &kp F4    &kp F5      &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT  &trans       &trans
+   &trans  &kp F6       &kp F7     &kp F8      &kp F9    &kp F10     &kp HOME  &kp PG_DN   &kp PG_UP &kp END    &trans       &trans
                                  &trans      &trans      &kp RET     &mo 3       &trans
                         >;
                 };
